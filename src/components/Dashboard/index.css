@@ -1,0 +1,47 @@
+.dashboard-bgContainer {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-subContainer {
+    width: 100%;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .dashboard-subContainer {
+        width: 80%;
+    }
+}
+
+.comments-loader-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comments-failure-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comments-failure-heading {
+    font-size: 34px;
+    color: #190158;
+}
+
+.comments-failure-description {
+    font-size: 34px;
+    color: #55515f;
+}

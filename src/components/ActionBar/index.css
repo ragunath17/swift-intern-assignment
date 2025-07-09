@@ -1,0 +1,83 @@
+.action-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 16px 0;
+    gap: 10px;
+}
+
+.sort-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.sort-btn {
+    background-color: #fdfdfd;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .sort-btn {
+        padding: 8px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+}
+
+.sort-btn:hover {
+    background-color: #effeff;
+}
+
+.search-container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .search-container {
+        padding: 10px;
+        border-radius: 8px;
+    }
+}
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+    color: #cfcdcd;
+}
+
+@media screen and (min-width: 768px) {
+    .search-icon {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+.search-input {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 6px;
+    width: 180px;
+    border: 0px none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .search-input {
+        padding: 8px 12px;
+        font-size: 14px;
+        width: 250px;
+    }
+}

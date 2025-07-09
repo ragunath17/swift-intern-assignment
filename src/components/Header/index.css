@@ -1,0 +1,103 @@
+/* src/components/Header/index.css */
+.header-bgContainer {
+    width: 100%;
+    background-color: #002b5c;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .header-bgContainer {
+        padding: 10px 20px;
+    }
+}
+
+
+.header-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .header-container {
+        width: 80%;
+    }
+}
+
+
+.header-span {
+    height: 30px;
+    width: 40px;
+    padding-right: 13px;
+    padding-left: 8px;
+    margin-right: 2px;
+    background-color: #06cc27;
+    border-top-right-radius: 40%;
+}
+
+.header-logo {
+    font-family: 'Calibri';
+    font-size: 22px;
+    margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .header-logo {
+        font-size: 28px;
+    }
+}
+
+.header-logo-img {
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    .header-logo-img {
+        height: 30px;
+        width: 30px;
+        margin-top: 5px;
+    }
+}
+
+.header-avatar-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.header-avatar {
+    background-color: #ffffff;
+    color: #030303;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-family: 'Calibri';
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.header-name {
+    font-size: 14px;
+    margin-left: 10px;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .header-name {
+        display: block;
+    }
+}

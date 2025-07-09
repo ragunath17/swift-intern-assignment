@@ -1,0 +1,156 @@
+.profile-bgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container {
+    padding: 10px 15px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .profile-container {
+        width: 80%;
+        padding: 20px 30px;
+    }
+}
+
+.welcome-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: #656566;
+    cursor: pointer;
+    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+.back-button:hover {
+    color: #0a0a0a;
+}
+
+.welcome-name {
+    font-family: 'Calibri';
+    font-size: 22px;
+    font-weight: 600;
+    color: #3a4149;
+}
+
+.profile-card {
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid #f9f9f9;
+    width: 100%;
+}
+
+
+.profile-title-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-initial {
+    height: 60px;
+    width: 60px;
+    background-color: #f8fcfd;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #5c5b70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-info-card {
+    margin-left: 10px;
+}
+
+.profile-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #07013d;
+    margin: 0px;
+}
+
+.profile-email {
+    font-size: 14px;
+    font-weight: 600;
+    color: #cecfcf;
+    margin: 0px;
+}
+
+.profile-user-info-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.each-label-card {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 0px 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .each-label-card {
+        width: 40%;
+        margin-right: 15px;
+    }
+}
+
+.label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #908fac;
+    margin: 10px 0 4px;
+}
+
+.value {
+    margin-top: 10px;
+    min-height: 40px;
+    width: 95%;
+    background-color: #f8f8f8fb;
+    border-radius: 5px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.loader-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.failure-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.failure-heading {
+    font-size: 34px;
+    color: #190158;
+}
+
+.failure-description {
+    font-size: 34px;
+    color: #55515f;
+}

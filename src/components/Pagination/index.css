@@ -1,0 +1,45 @@
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 16px;
+    font-size: 14px;
+}
+
+.item-range {
+    font-weight: 500;
+    font-size: 14px;
+    color: #504f4f;
+}
+
+.prev-next-button {
+    padding: 4px 8px;
+    margin: 0 2px;
+    background-color: white;
+    cursor: pointer;
+    border: 0px none;
+}
+
+.previous-next-btn {
+    padding: 4px 8px;
+    margin: 0 2px;
+    background-color: white;
+    cursor: pointer;
+    border: 0px none;
+}
+
+.active-page {
+    color: #3f3e3e;
+    font-weight: bold;
+    font-size: 16px;
+    height: 25px;
+    width: 25px;
+    background: transparent;
+}
+
+.page-size-dropdown {
+    padding: 4px 8px;
+    border: 1px solid #bdbbbb;
+    outline: none;
+}
